@@ -1,0 +1,24 @@
+# The host star
+sName	        star		                    # Body's name
+saModules	    stellar eqtide              # Modules to apply, exact spelling required
+
+# Output
+saOutputOrder Age -Luminosity -LXUVStellar -Radius Temperature
+
+# Physical Parameters
+dMass         0.78                        # Mass, solar masses
+dAge          1e6
+dObliquity    0
+dRotPeriod    -10                         # Rotation period, negative -> days
+dRadGyra      0.5                         # Radius of gyration (moment of inertia constant)
+
+# STELLAR Parameters
+sStellarModel baraffe                     # Stellar evolution model: `baraffe` or `none`
+dSatXUVFrac   1.e-3                       # Saturation level of the XUV luminosity
+dSatXUVTime   -0.1
+
+# EQTIDE Parameters
+dTidalQ        1.0e6        # Tidal phase lag
+dK2        0.5        # Love number of degree 2
+sTideModel    p2        # Tidal model, p2=CPL, t8=CTL
+saTidePerts    b        # Body name(s) of tidal perturbers
