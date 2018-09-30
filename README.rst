@@ -34,10 +34,8 @@ Expected output
 ---------------
 
 
-.. figure:: 40Eri.png
+.. figure:: HD26965.png
    :width: 600px
    :align: center
 
-An Earth-mass planet damping into Cassini state 2 under the influence of tides
-and perturbations from an 18 Earth-mass companion planet. This example is
-constructed to be similar to Figure 2 of :cite::WinnHolman05.
+Evolution of 40 Eridani A b. 
