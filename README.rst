@@ -13,7 +13,7 @@ Overview
                       atmesc
                       galhabit
 **Approx. runtime**   16 seconds
-**Source code**       `GitHub <https://github.com/VirtualPlanetaryLaboratory/vplanet-private/>`_
+**Source code**       `vplanet <https://github.com/VirtualPlanetaryLaboratory/vplanet/>`_
 ===================   ============
 
 Possible evolutionary history of 40 Eridani A b (aka Vulcan).
