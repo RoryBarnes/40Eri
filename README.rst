@@ -12,9 +12,7 @@ Overview
                       stellar
                       atmesc
                       galhabit
-                      thermint
-                      radheat
-**Approx. runtime**
+**Approx. runtime**   16 seconds
 **Source code**       `GitHub <https://github.com/VirtualPlanetaryLaboratory/vplanet-private/>`_
 ===================   ============
 
@@ -38,4 +36,4 @@ Expected output
    :width: 600px
    :align: center
 
-Evolution of 40 Eridani A b. 
+Evolution of 40 Eridani A b.
