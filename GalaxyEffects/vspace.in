@@ -1,0 +1,11 @@
+srcfolder  .
+destfolder data
+trialname  40Eri
+
+file   vpl.in
+
+file   40A.in
+
+file   40BC.in
+dSemi [200,8000,l30] a
+dEcc  [0,0.9,n30] e
