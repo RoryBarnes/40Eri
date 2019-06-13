@@ -4,14 +4,14 @@ Evolution of a Wide Stellar Binary due to Galactic Effects
 Overview
 --------
 
-Orbital evolution of objects in wide (>10,000 AU) orbits due to galactic migration,
+Orbital evolution of 40EriABC system due to galactic migration,
 the galactic tide, and passing field stars.
 
 ===================   ============
-**Date**              07/25/18
-**Author**            Russell Deitrick
+**Date**              06/13/19
+**Author**            Ningyi Chen
 **Modules**           GalHabit
-**Approx. runtime**   6 minutes
+**Approx. runtime**   12 hours
 ===================   ============
 
 Wide orbits are subject to torques from the galactic tide, as well as impulses from
@@ -24,17 +24,14 @@ To run this example
 
 .. code-block:: bash
 
-    # Run the main example
-    vplanet vpl.in
+    # Run 
+    vspace vspace.in
 
-    # Run the `tides_only` example
-    cd tides_only
-    vplanet vpl.in
-    cd ..
-
-    # Plot the figure
+    # Plot the figure (contour plot of pericenter values)
     python makeplot.py <pdf | png>
 
+    # Plot the figure (contour plot of ratio of change in pericenter values)
+    python plotratio.py <pdf | png>
 
 Expected output
 ---------------
@@ -42,9 +39,15 @@ Expected output
 .. figure:: GalaxyEffects.png
    :width: 600px
    :align: center
-
-   Evolution of an M dwarf orbiting the sun under the influence of the galactic
-   environment. The blue curves represent the evolution due to the galactic tide
-   alone, while the black includes the effects of random stellar encounters. The
-   dash curves are the semi-major axis (unaffected by the tide); the solid curves
-   are the perihelion distance.
+   
+   GalaxyEffects.png:
+   Evolution of 40EriBC orbiting the 40EriA under the influence of the galactic
+   environment. 
+   
+.. figure:: PeriqRatio.png
+   :width: 600px
+   :align: center
+   
+   PeriqRatio.png:
+   Contour plot of ratio of change in pericenter to initial pericenter value.
+   
